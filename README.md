@@ -1,9 +1,8 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Microsoft Graph API Mail Sender Console Application</title>
 </head>
 <body style="font-family: Arial, sans-serif; margin: 20px; color: #333;">
     <h1 style="color: #333;">Microsoft Graph API Mail Sender Console Application</h1>
