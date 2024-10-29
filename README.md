@@ -53,7 +53,7 @@
     <p>Instead of creating a project from scratch, clone the repository and modify it with your own configuration details:</p>
     <pre style="background-color: #f4f4f4; padding: 10px; border-radius: 5px;">gh repo clone zerenenes18/AutoMailSend-GraphAPI</pre>
     <h3>2.2 Update Configuration with Your Azure Details</h3>
-    <p>Open the cloned project in your preferred IDE and replace placeholders in the code with your <strong>Client ID</strong> and <strong>Tenant ID</strong> from Step 1.4.</p>
+    <p>Open the cloned project in your preferred IDE and replace placeholders in the code with your <strong>Client ID</strong> and <strong>Tenant ID</strong> from Step 1.4.<br>(And replace your E-mail addresses)</p>
     <h3>2.3 Install Required Packages</h3>
     <p>Ensure you have the required packages installed by running the following commands:</p>
     <pre style="background-color: #f4f4f4; padding: 10px; border-radius: 5px;">dotnet add package Microsoft.Graph<br>dotnet add package Azure.Identity<br>dotnet add package Microsoft.Graph.Models<br>dotnet add package Microsoft.Graph.Me.SendMail</pre>
