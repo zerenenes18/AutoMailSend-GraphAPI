@@ -60,7 +60,7 @@
     <h3>2.4 Run the Application</h3>
     <ol>
         <li>Run the console application to send an email:
-            <pre style="background-color: #f4f4f4; padding: 10px; border-radius: 5px;">dotnet run</pre>
+            <pre style="background-color: #f4f4f4; padding: 10px; border-radius: 5px;">dotnet build<br>dotnet run</pre>
         </li>
         <li>A device code will be displayed in the console. Open a browser and navigate to the URL provided, then enter the code to authenticate.</li>
         <li>Once authenticated, the application will send an email using Microsoft Graph API on your behalf.</li>
