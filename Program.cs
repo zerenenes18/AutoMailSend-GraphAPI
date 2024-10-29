@@ -60,7 +60,7 @@ class Program
             {
                 EmailAddress = new EmailAddress
                 {
-                    Address = "zerenenes18@gmail.com",
+                    Address = "test@gmail.com",
                 },
             },
         },
@@ -70,7 +70,7 @@ class Program
             {
                 EmailAddress = new EmailAddress
                 {
-                    Address = "enes@nevotek.com",
+                    Address = "test@gmail.com",
                 },
             },
         },
