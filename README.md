@@ -56,9 +56,7 @@
     <p>Open the cloned project in your preferred IDE and replace placeholders in the code with your <strong>Client ID</strong> and <strong>Tenant ID</strong> from Step 1.4.</p>
     <h3>2.3 Install Required Packages</h3>
     <p>Ensure you have the required packages installed by running the following commands:</p>
-    <pre style="background-color: #f4f4f4; padding: 10px; border-radius: 5px;">dotnet add package Microsoft.Graph
-        <br>dotnet add package Azure.Identity<br>dotnet add package Microsoft.Graph.Models<br>
-        dotnet add package Microsoft.Graph.Me.SendMail</pre>
+    <pre style="background-color: #f4f4f4; padding: 10px; border-radius: 5px;">dotnet add package Microsoft.Graph<br>dotnet add package Azure.Identity<br>dotnet add package Microsoft.Graph.Models<br>dotnet add package Microsoft.Graph.Me.SendMail</pre>
     <h3>2.4 Run the Application</h3>
     <ol>
         <li>Run the console application to send an email:
