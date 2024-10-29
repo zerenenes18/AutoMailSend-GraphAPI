@@ -1,4 +1,3 @@
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,7 +5,7 @@
 </head>
 <body style="font-family: Arial, sans-serif; margin: 20px; color: #333;">
     <h1 style="color: #333;">Microsoft Graph API Mail Sender Console Application</h1>
-    <p>This guide walks you through creating a .NET 8 console application that sends emails using Microsoft Graph API and Device Code Authentication. You’ll learn to set up Azure app registration, configure permissions, and use the Microsoft Graph SDK to send an email.</p>
+    <p>This guide walks you through setting up a .NET 8 console application that sends emails using Microsoft Graph API with Device Code Authentication. The instructions cover cloning the project from GitHub, configuring Azure app registration, and using the Microsoft Graph SDK to send an email.</p>
     <h2>Prerequisites</h2>
     <ul>
         <li><a href="https://dotnet.microsoft.com/download/dotnet/8.0" style="color: #007bff; text-decoration: none;">.NET SDK 8.0</a></li>
@@ -49,27 +48,23 @@
     </ol>
     <h3>1.5 (Optional) Configure Redirect URIs</h3>
     <p>In <strong>Authentication</strong> settings, ensure you have set the <strong>Redirect URI</strong> to <code>https://login.microsoftonline.com/common/oauth2/nativeclient</code>.</p>
-    <h2>Step 2: Set Up the Console Application</h2>
-    <h3>2.1 Create a New .NET Console Application</h3>
-    <ol>
-        <li>Open a terminal and create a new project with the following command:
-            <pre style="background-color: #f4f4f4; padding: 10px; border-radius: 5px;">dotnet new console -n GraphMailSender</pre>
-        </li>
-        <li>Change into the project directory:
-            <pre style="background-color: #f4f4f4; padding: 10px; border-radius: 5px;">cd GraphMailSender</pre>
-        </li>
-    </ol>
-    <h3>2.2 Install Microsoft Graph SDK</h3>
-    <p>Add the Microsoft Graph SDK package to your project:</p>
+    <h2>Step 2: Clone and Run the Application</h2>
+    <h3>2.1 Clone the GitHub Repository</h3>
+    <p>Instead of creating a project from scratch, clone the repository and modify it with your own configuration details:</p>
+    <pre style="background-color: #f4f4f4; padding: 10px; border-radius: 5px;">gh repo clone zerenenes18/AutoMailSend-GraphAPI</pre>
+    <h3>2.2 Update Configuration with Your Azure Details</h3>
+    <p>Open the cloned project in your preferred IDE and replace placeholders in the code with your <strong>Client ID</strong> and <strong>Tenant ID</strong> from Step 1.4.</p>
+    <h3>2.3 Install Required Packages</h3>
+    <p>Ensure you have the required packages installed by running the following commands:</p>
     <pre style="background-color: #f4f4f4; padding: 10px; border-radius: 5px;">dotnet add package Microsoft.Graph<br>dotnet add package Azure.Identity</pre>
-    <h3>2.3 Run the Application</h3>
+    <h3>2.4 Run the Application</h3>
     <ol>
-        <li>Run the console application to send the email:
+        <li>Run the console application to send an email:
             <pre style="background-color: #f4f4f4; padding: 10px; border-radius: 5px;">dotnet run</pre>
         </li>
         <li>A device code will be displayed in the console. Open a browser and navigate to the URL provided, then enter the code to authenticate.</li>
         <li>Once authenticated, the application will send an email using Microsoft Graph API on your behalf.</li>
     </ol>
-    <p>This README should help you set up and use the Microsoft Graph API to send emails from a .NET Console application.</p>
+    <p>This README provides all the steps needed to set up and use the Microsoft Graph API to send emails from a .NET Console application.</p>
 </body>
 </html>
