@@ -11,8 +11,8 @@ class Program
     static async Task Main(string[] args)
     {
         var scopes = new[] { "Mail.Send", "User.Read" };
-          var tenantId = "###";  // Ya da kendi tenant ID'niz
-        var clientId = "###";  // Kendi app registration clientId
+          var tenantId = "###";  // Or your own tenant ID
+        var clientId = "###";  // Your app registration clientId
 
         var options = new DeviceCodeCredentialOptions
         {
